@@ -47,14 +47,93 @@ html { scroll-behavior: smooth; }
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-xl bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition
-      hover:bg-indigo-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 ring-offset-slate-50;
+    @apply inline-flex items-center justify-center gap-2
+      rounded-xl px-4 py-2 text-sm font-semibold text-white
+      transition-all duration-200
+      focus-visible:outline-none
+      focus-visible:ring-2 focus-visible:ring-indigo-500
+      focus-visible:ring-offset-2
+      ring-offset-slate-50;
+
+    background: linear-gradient(
+      135deg,
+      #2cfca5,   /* red */
+      #3b82f6    /* blue */
+    );
   }
 
-  .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white/70 px-4 py-2 text-sm font-medium text-slate-900 transition
-      hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 ring-offset-slate-50;
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.35);
   }
+
+  .btn-primary2 {
+    @apply inline-flex items-center justify-center gap-2
+      rounded-xl px-4 py-2 text-sm font-semibold text-white
+      transition-all duration-200
+      focus-visible:outline-none
+      focus-visible:ring-2 focus-visible:ring-indigo-500
+      focus-visible:ring-offset-2
+      ring-offset-slate-50;
+
+    background: linear-gradient(
+      135deg,
+      #0766ff,   /* red */
+      #c6dbfd    /* blue */
+    );
+  }
+
+  .btn-primary2:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.35);
+  }
+
+
+  .btn-primary3 {
+    @apply inline-flex items-center justify-center gap-2
+      rounded-xl px-4 py-2 text-sm font-semibold text-white
+      transition-all duration-200
+      focus-visible:outline-none
+      focus-visible:ring-2 focus-visible:ring-indigo-500
+      focus-visible:ring-offset-2
+      ring-offset-slate-50;
+
+    background: linear-gradient(
+      135deg,
+      #0766ff,   /* red */
+      #0766ff    /* blue */
+    );
+  }
+
+  .btn-primary3:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.35);
+  }
+
+
+  .btn-secondary {
+  @apply inline-flex items-center justify-center gap-2
+    rounded-xl px-4 py-2 text-sm font-medium
+    text-slate-900
+    border border-slate-300/60
+    bg-white/60 backdrop-blur-sm
+    transition-all duration-200
+    focus-visible:outline-none
+    focus-visible:ring-2 focus-visible:ring-indigo-500
+    focus-visible:ring-offset-2
+    ring-offset-slate-50;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.85);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
 
   .btn-ghost {
     @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium text-slate-700 transition
@@ -73,4 +152,34 @@ html { scroll-behavior: smooth; }
   .muted {
     @apply text-slate-600;
   }
+}
+
+
+
+
+
+
+
+
+.btn-accent {
+  @apply inline-flex items-center justify-center gap-2
+    rounded-xl px-6 py-2 text-sm font-semibold
+    text-white
+    transition-all duration-200
+    focus-visible:outline-none
+    focus-visible:ring-2
+    focus-visible:ring-indigo-500
+    focus-visible:ring-offset-2
+    ring-offset-slate-50;
+
+  background: linear-gradient(
+    135deg,
+    #e2e2e2,  /* green */
+    #f14a4a   /* blue */
+  );
+}
+
+.btn-accent:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(223, 158, 158, 0.35);
 }

@@ -91,7 +91,7 @@ const Projects = ({ onSelect }) => {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="section-heading">Portfolio</h2>
           <p className="section-subtitle">
-            A selection of projects spanning enterprise CX, nonprofits, and engineering coursework.
+            A selection of projects spanning enterprise CX, nonprofit work, and applied engineering.
           </p>
         </div>
 
@@ -126,12 +126,10 @@ const Projects = ({ onSelect }) => {
                   </div>
 
                   <div className="mt-6 flex items-center justify-between">
-                    <span className="text-xs text-slate-500">
-                      {toBadges(project.technologies).length} technologies
-                    </span>
+                    
                     <button
                       type="button"
-                      className="btn-primary"
+                      className="btn-primary2"
                       onClick={() => route && onSelect(route)}
                     >
                       View details

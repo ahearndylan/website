@@ -24,29 +24,52 @@ const renderContent = () => {
         );
       case "Work Experience":
         return (
-          <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
-            <li>
-              Supported <strong>Lincoln Financial Group’s CX & CI teams</strong> by translating
-              business needs into user flows, Figma prototypes, and interactive demos across
-              the GP, RPS, and Wellness Path customer portals.
-            </li>
-            <li>
-              Partnered with <strong>CENTRO</strong> stakeholders to deliver a tailored Django
-              platform, including admin workflows and cost-efficient infrastructure using
-              PostgreSQL, NGINX, and DigitalOcean.
-            </li>
-            <li>
-              Co-led development of a full software system for <strong>WeCan LLC</strong>,
-              supporting scheduling, redemption tracking, and donations through a web and
-              mobile-friendly platform.
-            </li>
-            <li>
-              Built and deployed a custom Django site for <strong>Inner Voice Outer Change (IVOC)</strong>,
-              enabling mobile access, donation integration, and non-technical staff content control.
-            </li>
-          </ul>
+          <div className="max-h-60 overflow-y-auto pr-2">
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="card p-4">
+                <h3 className="text-sm font-semibold text-slate-900">
+                  Lincoln Financial Group
+                </h3>
+                <p className="mt-3 text-sm text-slate-600">
+                  Translated business needs into user flows, Figma prototypes, and interactive demos
+                  across the GP, RPS, and Wellness Path customer portals.
+                </p>
+              </div>
 
+              <div className="card p-4">
+                <h3 className="text-sm font-semibold text-slate-900">
+                  CENTRO Inc. 
+                </h3>
+                <p className="mt-3 text-sm text-slate-600">
+                  Delivered a tailored Django platform with admin workflows and cost-efficient
+                  infrastructure using PostgreSQL, NGINX, and DigitalOcean.
+                </p>
+              </div>
+
+              <div className="card p-4">
+                <h3 className="text-sm font-semibold text-slate-900">
+                  WeCan Initiative
+                </h3>
+                <p className="mt-3 text-sm text-slate-600">
+                  Co-led development of a scheduling, redemption tracking, and donations platform
+                  supporting web and mobile-friendly workflows.
+                </p>
+              </div>
+
+              <div className="card p-4">
+                <h3 className="text-sm font-semibold text-slate-900">
+                  Inner Voice Outer Change
+                </h3>
+                <p className="mt-3 text-sm text-slate-600">
+                  Built and deployed a custom Django site enabling mobile access, donation
+                  integration, and non-technical staff content control.
+                </p>
+              </div>
+            </div>
+          </div>
         );
+
+
       case "Skills":
         return (
           <div className="text-sm sm:text-base">
@@ -59,10 +82,11 @@ const renderContent = () => {
             </p>
             <a
               href="#projects"
-              className="inline-block mt-6 bg-black text-white px-6 py-2 rounded shadow hover:bg-gray-800 transition"
+              className="btn-accent mt-6"
             >
               EXPLORE MY PROJECTS
             </a>
+
           </div>
         );
       default:
@@ -115,9 +139,10 @@ const renderContent = () => {
                 ))}
               </div>
 
-              <div className="mt-4 max-h-96 overflow-y-auto pr-2 text-sm sm:text-base">
+              <div className="mt-4 text-sm sm:text-base">
                 {renderContent()}
               </div>
+
             </div>
           </div>
         </div>

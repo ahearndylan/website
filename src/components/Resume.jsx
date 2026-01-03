@@ -11,7 +11,7 @@ const Resume = () => {
             <a
               href="/DylanAhearnResume.pdf"
               download="DylanAhearnResume.pdf"
-              className="btn-primary"
+              className="btn-primary3"
             >
               Download PDF
             </a>

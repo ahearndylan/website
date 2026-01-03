@@ -5,7 +5,6 @@ const terminalText = [
   "I build customer-facing software solutions that bridge technology and business needs.",
   "My work spans enterprise CX teams, nonprofit platforms, and real-world deployments.",
   "I enjoy translating complex systems into tools that are clear, usable, and impactful.",
-  "Explore my site and feel free to connect with me!",
 ];
 
 const Hero = () => {
@@ -83,13 +82,13 @@ const Hero = () => {
       <div className="container-page">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="text-sm font-medium text-indigo-600">Software Developer</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
               Dylan Ahearn
             </h1>
-            <p className="mt-4 text-base text-slate-600 sm:text-lg">
-              Computer Science graduate focused on building clear, usable, customer-facing products
-              across enterprise and nonprofit environments.
+
+            {/* Hero subheading */}
+            <p className="mt-4 max-w-xl text-lg text-slate-600">
+              Building clear, thoughtful software for real-world use.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -102,6 +101,7 @@ const Hero = () => {
               >
                 Explore Projects
               </button>
+
               <button
                 type="button"
                 onClick={() =>
@@ -113,9 +113,8 @@ const Hero = () => {
               </button>
             </div>
 
-            <p className="mt-6 text-sm text-slate-500">
-              Tip: Use the navigation to jump between sections — everything is responsive.
-            </p>
+
+            
           </div>
 
           <div className="card overflow-hidden">
@@ -132,7 +131,7 @@ const Hero = () => {
                 style={{ minHeight: "14rem" }}
               >
                 {showWelcome ? (
-                  <div className="flex min-h-[14rem] items-center justify-center text-3xl font-bold tracking-wider text-[#00ff00] sm:text-4xl">
+                  <div className="flex min-h-[10rem] items-center justify-center text-3xl font-bold tracking-wider text-[#00ff00] sm:text-4xl">
                     WELCOME
                   </div>
                 ) : showMatrixOnly ? (

@@ -48,7 +48,7 @@ const Navbar = ({ setSelectedProject }) => {
                 <div className="text-sm font-semibold tracking-tight text-slate-900">
                   Dylan Ahearn
                 </div>
-                <div className="text-xs text-slate-600">Software Developer</div>
+                <div className="text-xs text-slate-600">Developer</div>
               </div>
             </button>
 
