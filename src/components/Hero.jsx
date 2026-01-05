@@ -37,6 +37,7 @@ const Hero = () => {
       setLineIndex((prev) => prev + 1);
       setCharIndex(0);
     }
+    
 
     if (!showWelcome && lineIndex === terminalText.length && !isFinished) {
       setIsFinished(true);
