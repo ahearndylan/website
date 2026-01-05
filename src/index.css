@@ -78,8 +78,8 @@ html { scroll-behavior: smooth; }
 
     background: linear-gradient(
       135deg,
-      #0766ff,   /* red */
-      #c6dbfd    /* blue */
+      #8ab6fd,   /* red */
+      #8ab6fd    /* blue */
     );
   }
 
@@ -174,8 +174,8 @@ html { scroll-behavior: smooth; }
 
   background: linear-gradient(
     135deg,
-    #e2e2e2,  /* green */
-    #f14a4a   /* blue */
+    #f76c6c,  /* green */
+    #f76c6c   /* blue */
   );
 }
 

@@ -29,7 +29,7 @@ const Hero = () => {
         const timeout = setTimeout(() => {
           setDisplayedText((prev) => prev + terminalText[lineIndex][charIndex]);
           setCharIndex((prev) => prev + 1);
-        }, 25);
+        }, 45);
         return () => clearTimeout(timeout);
       }
 
