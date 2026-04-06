@@ -10,16 +10,15 @@ const renderContent = () => {
       case "Background":
         return (
           <p className="text-sm sm:text-base">
-             I’m a Computer Science graduate from Clark University with experience delivering
-             customer-facing software solutions across enterprise and nonprofit environments.
-             My background centers on translating business needs into clear workflows, usable
-             interfaces, and production-ready systems.
+             I’m a Computer Science graduate from Clark University with experience building tools 
+             and systems across enterprise and nonprofit environments. 
+             My work focuses on translating business needs and complex processes into clear workflows, 
+             usable interfaces, and production-ready solutions.
+
             <br></br>
             <br></br>
-            I’ve worked closely with stakeholders, designers, and engineers throughout 
-            the full software development lifecycle, participating in discovery, sprint planning, 
-            backlog refinement, prototyping, and deployment to deliver practical and scalable
-            solutions. Ensuring tools are focused on the end user.
+            I’ve collaborated closely with stakeholders, designers, and engineers throughout the software development lifecycle, participating in discovery, planning, prototyping, and deployment to deliver practical and scalable tools that support real-world operations while ensuring the tools remain focused on the end user.
+
           </p>
         );
       case "Work Experience":
@@ -31,8 +30,9 @@ const renderContent = () => {
                   Lincoln Financial Group
                 </h3>
                 <p className="mt-3 text-sm text-slate-600">
-                  Translated business needs into user flows, Figma prototypes, and interactive demos
-                  across the GP, RPS, and Wellness Path customer portals.
+                  Analyzed customer journeys and business workflows across enterprise CX portals, 
+                  translating requirements into user flows, prototypes, and technical documentation 
+                  to support product and automation initiatives.
                 </p>
               </div>
 
@@ -74,11 +74,13 @@ const renderContent = () => {
         return (
           <div className="text-sm sm:text-base">
             <p className="mb-4">
-              I’ve built a strong foundation in full-stack development, cloud deployment, and collaborative software design.
-              My hands-on experience spans nonprofit systems, internal tools, and client-focused platforms that prioritize usability and scale.
+            I’ve built a strong foundation in full-stack development, system design, and cloud 
+            deployment. My hands-on experience spans enterprise customer experience platforms, 
+            nonprofit technology systems, and internal tools designed to improve workflows and 
+            usability.  
             </p>
             <p>
-              <strong>Core Skills:</strong> Python, Django, JavaScript, React, HTML/CSS, SQL, Git, Docker, Agile (Jira), DigitalOcean, AWS
+              <strong>Core Skills:</strong> Python, Django, JavaScript, React, HTML/CSS, SQL, Git, Docker, DigitalOcean, AWS, Figma
             </p>
             <a
               href="#projects"

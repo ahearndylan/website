@@ -5,7 +5,7 @@ const Resume = () => {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="section-heading">Resume</h2>
           <p className="section-subtitle">
-            View or download my latest resume to learn more about my background and experience.
+            View or download my latest resume to learn more about my experience.
           </p>
           <div className="mt-6">
             <a

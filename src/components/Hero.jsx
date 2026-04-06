@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const terminalText = [
-  "Hi, I'm Dylan Ahearn — a Computer Science graduate from Clark University.",
-  "I build customer-facing software solutions that bridge technology and business needs.",
-  "My work spans enterprise CX teams, nonprofit platforms, and real-world deployments.",
-  "I enjoy translating complex systems into tools that are clear, usable, and impactful.",
+  "Hi, I'm Dylan Ahearn, a Computer Science graduate from Clark University.",
+  "I design tools and workflows that help teams work more effectively with complex systems.",
+  "My experience spans enterprise CX teams, nonprofit platforms, and real-world deployments.",
+  "I enjoy turning complicated processes into tools that are clear, usable, and impactful.",
 ];
 
 const Hero = () => {
@@ -89,7 +89,7 @@ const Hero = () => {
 
             {/* Hero subheading */}
             <p className="mt-4 max-w-xl text-lg text-slate-600">
-              Building clear, thoughtful software for real-world use.
+              Turning complex systems into simple, useful tools.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
